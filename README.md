@@ -19,3 +19,5 @@ Este repositório contém scripts para extrair senhas de redes Wi-Fi salvas no s
   - **Informações Coletadas: O script PowerShell (main.ps1) coleta informações sobre redes Wi-Fi salvas e extrai as senhas para um arquivo de texto.**
   
   - **Formato do Arquivo de Saída: O arquivo wifi.txt inclui o nome da rede e a senha, além do nome do computador. Se o arquivo já existir, as novas informações serão adicionadas com um carimbo de data e hora.**
+
+  - **Idioma: Este script e suas mensagens de saída estão configurados para funcionar apenas em português brasileiro (PT-BR).**
