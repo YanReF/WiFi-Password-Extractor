@@ -17,7 +17,7 @@ function Show-Error {
 }
 
 if (-not (Get-Command netsh -ErrorAction SilentlyContinue)) {
-    Show-Error "O comando 'netsh' não está disponível."
+    Show-Error "O comando 'netsh' não está disponível em seu computador."
 }
 
 $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
